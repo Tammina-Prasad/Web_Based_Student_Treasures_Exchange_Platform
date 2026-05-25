@@ -427,4 +427,4 @@ def orders():
     return render_template("order.html", orders=res)
 
 if __name__=='__main__':
-    app.run(debug=True)
+    app.run()
